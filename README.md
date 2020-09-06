@@ -2,7 +2,7 @@
 
 A lightweight widget that inverts the colors of its children
 
-## Getting Started
+## Example
 
 Invert HomePage:
 ```
@@ -25,3 +25,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }```
+
+The ```InvertColors``` widget can be used to invert any child.

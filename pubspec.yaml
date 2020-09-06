@@ -1,7 +1,6 @@
 name: invert_colors
 description: A lightweight widget that inverts the colors of its children.
 version: 0.0.1
-author: Benjamin Swerdlow
 homepage: https://github.com/theswerd/InvertColors
 
 environment:
