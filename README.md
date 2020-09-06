@@ -2,10 +2,24 @@
 
 A lightweight widget that inverts the colors of its children
 
-## Example
+## Usage
+
+1. Follow [Installation Instructions](https://pub.dev/packages/invert_colors/install)
+
+2. Wrap around any widget
+
+```dart
+InvertColors(
+    child: MyWidget(),
+)
+```
+
 
 Invert HomePage:
-```
+```dart
+import 'package:flutter/material.dart';
+import 'package:invert_colors/invert_colors.dart';
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -24,6 +38,7 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-}```
+}
+```
 
 The ```InvertColors``` widget can be used to invert any child.
