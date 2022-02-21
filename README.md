@@ -14,6 +14,13 @@ InvertColors(
 )
 ```
 
+```dart
+InvertColors(
+    isColorInverted: true, // optional
+    child: MyWidget(),
+)
+```
+
 
 Invert HomePage:
 ```dart
